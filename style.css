@@ -1,0 +1,135 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #2f3035;
+    background-image: url(Images/background.jpg);
+     background-size: cover; 
+     background-repeat: no-repeat; 
+     animation: drop 1.5s ease;
+    /* background-position: center; */
+
+}
+.banana{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+.p {
+ 
+    height: 195px; 
+    text-align: center;
+     }
+.q{
+    
+    background-color:rgba(0, 0, 0, 0.308);
+ text-align: center;
+     
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+ }
+.r{
+    
+    height: 400px; 
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+
+    
+}
+.s{
+    background-color:rgba(0, 0, 0, 0.315);
+    height: 50px; 
+    }
+h1{
+    font-size: 80px;
+     color: white; 
+ font-family: Arial, Helvetica, sans-serif; 
+ 
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+.q a{
+   text-decoration: none;
+   color: white;
+   font-size: 12px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-left: 18px;
+}
+.s p{
+    padding-top:15px;
+    font-size: 10px;
+    color: rgb(226, 217, 206);
+    text-align:center;
+}
+.map{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#nonveg{
+    color: rgb(218, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+#veg{
+    color: rgb(69, 212, 69);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+#menu{
+    border-style: double;
+   background-color: rgba(170, 99, 6, 0.397);
+    
+
+}
+.reservation{
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: rgb(223, 194, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu, .head{
+    display: flex;
+    justify-content: space-around;
+    animation: drop 1.5s ease;
+}
+.menu, .img2{
+    display: flex;
+    justify-content: space-around;
+    animation: drop 1.5s ease;
+
+}
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.uisubmit{
+    border: 2px solid #c36cbb;
+    background: transparent;
+    color: rgb(223, 194, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+
+   
+}
